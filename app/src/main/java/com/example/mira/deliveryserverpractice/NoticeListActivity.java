@@ -1,9 +1,11 @@
 package com.example.mira.deliveryserverpractice;
 
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.widget.ListView;
 
 public class NoticeListActivity extends BaseActivity {
+
+    private android.widget.ListView noticeListView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -26,6 +28,6 @@ public class NoticeListActivity extends BaseActivity {
 
     @Override
     public void bindViews() {
-
+        this.noticeListView = (ListView) findViewById(R.id.noticeListView);
     }
 }
