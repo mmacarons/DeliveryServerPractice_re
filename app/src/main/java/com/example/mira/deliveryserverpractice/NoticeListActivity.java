@@ -3,7 +3,16 @@ package com.example.mira.deliveryserverpractice;
 import android.os.Bundle;
 import android.widget.ListView;
 
+import com.example.mira.deliveryserverpractice.datas.Announcement;
+
+import java.util.ArrayList;
+import java.util.List;
+
 public class NoticeListActivity extends BaseActivity {
+
+    List<Announcement> announcementList = new ArrayList<Announcement>();
+
+
 
     private android.widget.ListView noticeListView;
 
